@@ -1,0 +1,111 @@
+/* Write your CSS here */
+body {
+	background-color: #f6eedf;
+	font-family: 'Acme', sans-serif;
+	/*width: 700px;*/
+	text-align: center;
+
+}
+
+h2 {
+	font-size: 50px;
+	padding-bottom: 30px;
+}
+
+ .header h1 {
+	text-shadow: 5px 5px 5px #fae7cb;
+	font-size: 45px;
+}
+
+.header img {
+	border-radius: 10px;
+	
+	align-items: center;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.header {
+	background-image: url(images/back4.jpeg);
+	height: 600px;
+	padding-top: 100px;
+
+}
+
+.header p {
+	font-size: 30px;
+
+}
+
+.header a {
+	margin-top: 40px;
+	padding: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	background-color: #ff7272;
+	border-radius: 10px;
+
+}
+
+.header p {
+	padding-bottom: 50px;
+}
+
+.header a:hover {
+	padding: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	background-color: #ffd31d;
+	border-radius: 10px;
+
+}
+
+.comp {
+
+	height: 200px;
+	background-color: #ffb385;
+	margin: 30px auto;
+	padding: 30px;
+	width: 400px;
+	align-items: center;
+	box-shadow: 6px 6px 6px #ff7272;
+
+}
+.comps {
+  padding-left: 170px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  width: 1000px;
+  /*position: center;*/
+
+}
+@media(max-width: 992px){
+  .comps{
+  width: 750px;
+  }
+}
+
+/*les écrans de largeur inférieure à 768 pixels*/
+@media(max-width: 768px){
+  .comps{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+footer {
+	height: 300px;
+	padding-top: 100px;
+}
+
+footer p {
+	margin-top: 100px;
+
+}
